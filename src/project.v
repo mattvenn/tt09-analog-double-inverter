@@ -23,8 +23,8 @@ module tt_um_mattvenn_double_inverter (
 	double_inverter double_inverter(
 		.VDD(VDPWR),
 		.VSS(VGND),
-		.input(ua[1]),
-		.output(ua[0])
+		.INPUT(ua[1]),
+		.OUTPUT(ua[0])
 	);
 
     assign uo_out[0] = VGND;
